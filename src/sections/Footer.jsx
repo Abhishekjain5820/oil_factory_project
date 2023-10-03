@@ -1,17 +1,17 @@
 import { copyrightSign } from "../assets/icons";
-import { footerLogo } from "../assets/images";
+import { footerlogo } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
   return (
-    <footer className='max-container'>
+    <footer className='max-container footer-color'>
       <div className='flex justify-between items-start gap-20 flex-wrap max-lg:flex-col'>
         <div className='flex flex-col items-start'>
           <a href='/'>
             <img
-              src={footerLogo}
+              src={footerlogo}
               alt='logo'
-              width={150}
+              width={250}
               height={46}
               className='m-0'
             />
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap'>
+        <div className='flex justify-between lg:gap-10 gap-20 flex-wrap'>
           {footerLinks.map((section) => (
             <div key={section.title}>
               <h4 className='font-montserrat text-2xl leading-normal font-medium mb-6 text-white'>

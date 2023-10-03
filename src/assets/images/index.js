@@ -2,12 +2,23 @@ import bigShoe1 from './big-shoe1.png'
 import bigShoe2 from './big-shoe2.png'
 import bigShoe3 from './big-shoe3.png'
 
+import headerLogoImage from './headerLogoImage.png'
+import footerlogo from './footerlogo.jpeg'
+
+import oil_factory from './oil_factory.jpg'
+import oil_plant from './oil_plant.jfif'
 import customer1 from './customer1.jpeg'
 import customer2 from './customer2.svg'
+import customer3 from './customer3.jfif'
 
+import raw_product1 from './raw_product1.jpg'
+import raw_product2 from './raw_product2.jpg'
+import raw_product3 from './raw_product3.jpg'
+import raw_product4 from './raw_product4.jpg'
+import raw_product5 from './raw_product5.avif'
 import footerLogo from './footer-logo.svg'
 import headerLogo from './header-logo.svg'
-
+import HeroImagePhoto from './HeroImagePhoto.jpeg'
 import offer from './offer.svg'
 
 import shoe4 from './shoe4.svg'
@@ -26,11 +37,25 @@ export {
     bigShoe2,
     bigShoe3,
 
+    oil_factory,
+    oil_plant,
+
     customer1,
     customer2,
+    customer3,
 
     footerLogo,
     headerLogo,
+    headerLogoImage,
+    footerlogo,
+
+    HeroImagePhoto,
+
+    raw_product1,
+    raw_product2,
+    raw_product3,
+    raw_product4,
+    raw_product5,
 
     offer,
     shoe4,

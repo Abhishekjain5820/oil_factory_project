@@ -1,11 +1,11 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, customer3, raw_product1,raw_product2,  raw_product3,  raw_product4,  raw_product5,  shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
 
 export const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
-    { href: "#products", label: "Products" },
-    { href: "#contact-us", label: "Contact Us" },
+    { href: "/", label: "Home" },
+    { href: "about", label: "About Us" },
+    { href: "products", label: "Products" },
+    { href: "contact", label: "Contact Us" },
 ];
 
 export const shoes = [
@@ -31,23 +31,23 @@ export const statistics = [
 
 export const products = [
     {
-        imgURL: shoe4,
-        name: "Nike Air Jordan-01",
+        imgURL: raw_product1,
+        name: "Rice",
         price: "$200.20",
     },
     {
-        imgURL: shoe5,
-        name: "Nike Air Jordan-10",
+        imgURL: raw_product5,
+        name: "Corn",
         price: "$210.20",
     },
     {
-        imgURL: shoe6,
-        name: "Nike Air Jordan-100",
+        imgURL: raw_product3,
+        name: "Soyabean",
         price: "$220.20",
     },
     {
-        imgURL: shoe7,
-        name: "Nike Air Jordan-001",
+        imgURL: raw_product4,
+        name: "Sugarcane",
         price: "$230.20",
     },
 ];
@@ -72,7 +72,7 @@ export const services = [
 
 export const reviews = [
     {
-        imgURL: customer1,
+        imgURL: customer3,
         customerName: 'Morich Brown',
         rating: 4.5,
         feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
@@ -87,27 +87,27 @@ export const reviews = [
 
 
 export const footerLinks = [
-    {
-        title: "Products",
-        links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
-        ],
-    },
-    {
-        title: "Help",
-        links: [
-            { name: "About us", link: "/" },
-            { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
-            { name: "Payment policy", link: "/" },
-        ],
-    },
+    // {
+    //     title: "Products",
+    //     links: [
+    //         { name: "Air Force 1", link: "/" },
+    //         { name: "Air Max 1", link: "/" },
+    //         { name: "Air Jordan 1", link: "/" },
+    //         { name: "Air Force 2", link: "/" },
+    //         { name: "Nike Waffle Racer", link: "/" },
+    //         { name: "Nike Cortez", link: "/" },
+    //     ],
+    // },
+    // {
+    //     title: "Help",
+    //     links: [
+    //         { name: "About us", link: "/" },
+    //         { name: "FAQs", link: "/" },
+    //         { name: "How it works", link: "/" },
+    //         { name: "Privacy policy", link: "/" },
+    //         { name: "Payment policy", link: "/" },
+    //     ],
+    // },
     {
         title: "Get in touch",
         links: [
